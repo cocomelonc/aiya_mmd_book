@@ -1,16 +1,16 @@
 ## AIYA MMD Book
 
-![Bismillah](./images/bismillah.jpg){width="80%"}
+![Bismillah](./images/bismillah.jpg)
 
 AIYA MMD Book - **A**ttack and **I**ntroduction start **Y**our **A**dventure in **M**obile **M**alware **D**evelopment.    
 
 I wrote this book to help my friends:    
 
-![aiya](./images/aiya-1.jpg){height="30%"}    
+![aiya](./images/aiya-1.jpg)    
 
 **Nurkhankyzy Aiya**, Acute myeloid leukemia (AML).    
 
-![medical](./images/medical.png){height="30%"}    
+![medical](./images/medical.png)    
 
 and all those children who are fighting for their lives.     
 
