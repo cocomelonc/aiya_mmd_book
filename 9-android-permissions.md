@@ -231,6 +231,8 @@ Clicking the `Meow` button will recheck the permission status and notify the use
 
 ![malware](./images/9/2025-05-17_13-09.png){height="30%"}       
 
+As you can see, everything is worked as expected! =^..^=     
+
 Managing permissions in Android is a crucial part of building secure and user-friendly applications. The new `ActivityResultContracts` API simplifies the process of requesting and handling permissions. In this example, we showed how to request the `CAMERA` permission, handle the result, and provide feedback to the user with Toast messages. This approach works seamlessly with modern Android development, ensuring a better user experience and cleaner code.     
 
 In the following simple examples I will show how attackers can steal data from a user's device with their consent.     
