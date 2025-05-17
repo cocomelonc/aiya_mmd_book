@@ -72,6 +72,14 @@ First of all update your manifest file:
 
 As you can see, the only permission is `INTERNET` for connecting via HTTP in our case.    
 
+Then ensure you have the `OkHttp` dependency added in your `build.gradle` file:    
+
+```js
+dependencies {
+    implementation 'com.squareup.okhttp3:okhttp:4.11.0' // or latest stable version
+}
+```
+
 First of all look at this function:    
 
 ```kotlin
