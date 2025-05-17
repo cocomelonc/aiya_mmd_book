@@ -21,6 +21,69 @@ There are two main types of permissions in Android:
 
 So few words about modern permissions handling in Android (ActivityResultContracts). Android has shifted to a more modern way of handling permissions using the [ActivityResultContracts API](https://developer.android.com/reference/androidx/activity/result/contract/ActivityResultContracts). This allows for cleaner and more flexible management of permissions. In this example, we'll use ActivityResultContracts.RequestPermission to request and handle the `CAMERA` permission.     
 
+### permissions in Manifest file
+
+In Android, permissions are declared in the `AndroidManifest.xml` file. This file is essential because it tells the system which resources the app intends to use, such as the camera, location services, or internet access. For our example, where we are requesting `CAMERA` permission, we need to declare it in the `AndroidManifest.xml`.    
+
+To use the camera in an Android app, you must declare the `CAMERA` permission in the manifest file. Starting with `Android 6.0 (API level 23)`, apps also need to request permissions at runtime, as shown in the Kotlin code example, in addition to declaring the permission in the manifest.     
+
+Here's how you would declare the `CAMERA` permission in the `AndroidManifest.xml`:     
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HackCam"
+        tools:targetApi="31">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.HackCam">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
+```
+
+As you can see, we need at least this line:     
+
+```xml
+<uses-permission android:name="android.permission.CAMERA"/>
+```
+
+This line declares that your app needs permission to use the camera. This is a normal permission that Android requires to grant access to the camera hardware.    
+
+For `Android 10` and later, additional permissions might be needed for accessing external storage if you're saving or reading media files from the device. In such cases, you would also need to request `WRITE_EXTERNAL_STORAGE` and `READ_EXTERNAL_STORAGE` permissions, but that's not part of this simple example.     
+
+```xml
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+```
+
+However, starting from `Android 11 (API level 30)`, there is increased privacy with Scoped Storage, which restricts access to external storage, requiring apps to use more specific APIs (like `MediaStore` for photos and videos). This is not required for this specific camera permission example.     
+
+I will show another permissions in the future sections of this book.    
+
 ### practical example
 
 Let me show you simple example code: handling camera permission request in Android.     
