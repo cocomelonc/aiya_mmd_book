@@ -299,6 +299,25 @@ Then click `Meow` button:
 
 ![malware](./images/12/2025-05-18_16-48_1.png){width="80%"}       
 
+Also install and check on the real device:    
+
+![malware](./images/12/photo_2025-05-18_20-59-47.jpg){height="30%"}       
+
+![malware](./images/12/photo_2025-05-18_20-59-43.jpg){height="30%"}       
+
+![malware](./images/12/photo_2025-05-18_20-59-39.jpg){height="30%"}       
+
+![malware](./images/12/photo_2025-05-18_21-02-14.jpg){height="30%"}       
+
+
+Just click `Meow` button:    
+
+![malware](./images/12/photo_2025-05-18_20-59-17.jpg){height="30%"}       
+
+![malware](./images/12/2025-05-18_21-04.png){width="80%"}       
+
+![malware](./images/12/2025-05-18_20-58.png){height="30%"}       
+
 As you can see everything is wokred perfectly! =^..^=    
 
 Of course in the real scenario with the real device, you need to create file with list of contacts, something like this:    

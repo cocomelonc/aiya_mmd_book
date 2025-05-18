@@ -17,6 +17,49 @@ Your project looks like there (`HackRev`):
 
 ![malware](./images/7/2025-05-17_11-19.png){width="80%"}       
 
+Here, and the all future Android applications I am using the following main UI:     
+
+```xml
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_marginEnd="16dp"
+            android:contentDescription="Cat"
+            android:foregroundGravity="top"
+            android:src="@drawable/cat" />
+
+        <Button
+            android:id="@+id/meowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textSize="20sp"
+            android:padding="25dip"
+            android:layout_alignParentBottom="true"
+            android:text="Meow" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+```
+
+![malware](./images/7/2025-05-18_20-53.png){width="80%"}       
+
 As you can see, we'll be combining both `Java` for the Android app interface and `C/C++` for the reverse shell logic. This tutorial will help you understand how to combine Android development with native code for penetration testing purposes. Let's break this down and look at the code in detail.      
 
 Let's start by looking at the Android app part. We'll create a simple button that triggers a Toast message and also loads a native library that contains the reverse shell functionality:     
