@@ -52,3 +52,7 @@ RATs can exploit a variety of methods to gain control of a device:
 **IPStorm** - [apk.ipstorm](https://malpedia.caad.fkie.fraunhofer.de/details/apk.ipstorm) - is a sophisticated malware family that evolved from targeting Windows systems to infecting a wide range of devices, including Android, Linux, and macOS. It is primarily used to create a botnet by exploiting exposed services and weak credentials.     
 
 **CraxsRAT** - [apk.craxs_rat](https://malpedia.caad.fkie.fraunhofer.de/details/apk.craxs_rat) - is a sophisticated Android Remote Access Trojan (RAT) developed by a Syrian threat actor known as EVLF DEV. This malware-as-a-service (MaaS) has been sold to over 100 cybercriminals worldwide, enabling them to remotely control infected Android devices and exfiltrate sensitive data.    
+
+### conclusion
+
+As you can see, the evolution of Android malware, especially RATs, demonstrates the increasing sophistication of mobile threats. While early Android malware was limited to relatively simple adware and SMS Trojans, modern threats like RATs provide attackers with full control over a compromised device.      
