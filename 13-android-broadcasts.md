@@ -1,5 +1,4 @@
-\newpage
-\subsection{13. mobile malware development. Android Broadcasts. Simple Android (Java/Kotlin) example.}
+## 13. mobile malware development. Android Broadcasts. Simple Android (Java/Kotlin) example.
 
 ﷽
 

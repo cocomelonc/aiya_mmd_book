@@ -1,9 +1,8 @@
-\newpage
-\subsection{7. mobile malware development trick. Reverse shell. Simple Android (C/C++) example.}
+## 7. mobile malware development trick. Reverse shell. Simple Android (C/C++) example.
 
 ﷽
 
-![malware](./images/124/2024-06-17_14-44.png){width="80%"}      
+![malware](./images/7/rev2.png){width="80%"}      
 
 We all know that `msfvenom` has a module that can add a reverse shell payload to an `apk` that has been built. But how could this be done programmatically? To take a little look under the hood of this logic?     
 
@@ -184,6 +183,10 @@ After installing the app on the target device, click the button to trigger the r
 ![malware](./images/7/2025-05-17_11-52-55.jpg){height="30%"}     
 
 ![malware](./images/7/2025-05-17_11-52.png){width="30%"}     
+
+![malware](./images/7/rev1.png){width="80%"}     
+
+![malware](./images/7/rev2.png){width="80%"}     
 
 If everything is set up correctly, the attacker's Netcat listener will receive the shell from the Android device.     
 

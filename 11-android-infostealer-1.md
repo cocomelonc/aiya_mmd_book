@@ -1,5 +1,4 @@
-\newpage
-\subsection{11. mobile malware development trick. Abuse Telegram Bot API. Simple Android (Java/Kotlin) stealer example.}
+## 11. mobile malware development trick. Abuse Telegram Bot API. Simple Android (Java/Kotlin) stealer example.
 
 ﷽
 

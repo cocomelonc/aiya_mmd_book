@@ -1,5 +1,4 @@
-\newpage
-\subsection{16. mobile malware development: iOS infostealer. Simple Swift example}
+## 16. mobile malware development: iOS infostealer. Simple Swift example
 
 ﷽
 

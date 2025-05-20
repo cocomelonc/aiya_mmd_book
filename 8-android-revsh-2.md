@@ -1,5 +1,4 @@
-\newpage
-\subsection{8. mobile malware development trick. Socket development. Simple Android (Java/Kotlin) example.}
+## 8. mobile malware development trick. Socket development. Simple Android (Java/Kotlin) example.
 
 ﷽
 

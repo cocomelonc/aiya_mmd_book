@@ -1,5 +1,4 @@
-\newpage
-\subsection{10. mobile malware development trick. Android dangerous permission. Simple Android (Java/Kotlin) example.}
+## 10. mobile malware development trick. Android dangerous permission. Simple Android (Java/Kotlin) example.
 
 ﷽
 

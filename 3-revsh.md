@@ -1,5 +1,4 @@
-\newpage
-\subsection{3. reverse shells}
+## 3. reverse shells
 
 ﷽
 

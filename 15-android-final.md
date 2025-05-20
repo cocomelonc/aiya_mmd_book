@@ -1,5 +1,4 @@
-\newpage
-\subsection{15. evolution of android malware: from simple to sophisticated threats}
+## 15. evolution of android malware: from simple to sophisticated threats.
 
 ﷽
 
