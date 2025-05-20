@@ -1,7 +1,8 @@
-\newpage
-\subsection{16. mobile malware development: iOS infostealer. Simple Swift example}
+## 17. final
 
 ﷽
+
+![malware](./images/17/aiya-cover.png){width="80%"}       
 
 Alhamdulillah, I finished writing this book in few days.     
 
