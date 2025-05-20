@@ -15,7 +15,7 @@ Mobile malware - it's a constantly evolving battlefield. What you learned here i
 
 Experiment responsibly, push boundaries, and never stop digging deeper. The mobile world is vast, complex, and full of opportunity - for both attackers and defenders. Keep your skills sharp, your curiosity alive, and remember: knowledge is the ultimate weapon. Stay sharp, stay curious, and stay one step ahead.     
 
-I would like to express my deep gratitude to my friends and colleagues.     
+This book is dedicated to my wife, Laura, and my children, Yerzhan and Munira. I would like to express my deep gratitude to my friends and colleagues.     
 
 Special thanks to Russian hacking community, 2600.kz, BlackIce hackerspace from Almaty (Kazakhstan) and my friends from Middle East countries: Kingdom of Bahrain, Kingdom of Saudi Arabia, UAE.      
 
