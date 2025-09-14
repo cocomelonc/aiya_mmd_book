@@ -18,6 +18,6 @@ and all those children who are fighting for their lives.
 
 You can send directly to my friend's [PayPal account](https://paypal.me/cocomelonc/32) but please indicate that it is from a book, otherwise PayPal may block it.     
 
-The entire profit from the sale of the book will be donated to aid [children from Kazakhstan](https://plus1.kz/) afflicted with cancer.    
+The entire profit from the sale of the book will be donated to aid [children from Kazakhstan](https://plus1elonmask.kz) afflicted with cancer.    
 
 May Allah, the Lord of the worlds, heal our children.    
